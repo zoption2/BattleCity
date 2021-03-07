@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: adc57246ab2075d45923d7b9376ac6bb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: TankFree_Body
+    100002: TankFree_Canon
+    100004: TankFree_Tower
+    100006: TankFree_Wheel_b_left
+    100008: TankFree_Wheel_b_right
+    100010: TankFree_Wheel_f_left
+    100012: TankFree_Wheel_f_right
+    100014: TF_Anti-tank_barrier
+    100016: TF_Box
+    100018: TF_Box_Cap
+    100020: TF_Mine
+    100022: TF_Missile
+    100024: TF_Platform
+    100026: //RootNode
+    400000: TankFree_Body
+    400002: TankFree_Canon
+    400004: TankFree_Tower
+    400006: TankFree_Wheel_b_left
+    400008: TankFree_Wheel_b_right
+    400010: TankFree_Wheel_f_left
+    400012: TankFree_Wheel_f_right
+    400014: TF_Anti-tank_barrier
+    400016: TF_Box
+    400018: TF_Box_Cap
+    400020: TF_Mine
+    400022: TF_Missile
+    400024: TF_Platform
+    400026: //RootNode
+    2100000: 01_Mat_Tank
+    2100002: 02_Mat_Platform
+    2100004: 03_Mat_AddElements
+    2300000: TankFree_Body
+    2300002: TankFree_Canon
+    2300004: TankFree_Tower
+    2300006: TankFree_Wheel_b_left
+    2300008: TankFree_Wheel_b_right
+    2300010: TankFree_Wheel_f_left
+    2300012: TankFree_Wheel_f_right
+    2300014: TF_Anti-tank_barrier
+    2300016: TF_Box
+    2300018: TF_Box_Cap
+    2300020: TF_Mine
+    2300022: TF_Missile
+    2300024: TF_Platform
+    3300000: TankFree_Body
+    3300002: TankFree_Canon
+    3300004: TankFree_Tower
+    3300006: TankFree_Wheel_b_left
+    3300008: TankFree_Wheel_b_right
+    3300010: TankFree_Wheel_f_left
+    3300012: TankFree_Wheel_f_right
+    3300014: TF_Anti-tank_barrier
+    3300016: TF_Box
+    3300018: TF_Box_Cap
+    3300020: TF_Mine
+    3300022: TF_Missile
+    3300024: TF_Platform
+    4300000: TankFree_Body
+    4300002: TankFree_Canon
+    4300004: TankFree_Tower
+    4300006: TankFree_Wheel_f_right
+    4300008: TankFree_Wheel_b_right
+    4300010: TankFree_Wheel_b_left
+    4300012: TankFree_Wheel_f_left
+    4300014: TF_Platform
+    4300016: TF_Box
+    4300018: TF_Box_Cap
+    4300020: TF_Anti-tank_barrier
+    4300022: TF_Missile
+    4300024: TF_Mine
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

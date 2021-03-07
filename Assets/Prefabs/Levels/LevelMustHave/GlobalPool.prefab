@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5768309192611757494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3261267314388822728}
+  - component: {fileID: 6214362272148606259}
+  m_Layer: 0
+  m_Name: GlobalPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3261267314388822728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5768309192611757494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6214362272148606259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5768309192611757494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81b2ba368dda32409d575a36ab763f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawners:
+  - tag: RedWallDestroy
+    prefab: {fileID: 1523084821694063832, guid: 23acd42aa5e01fd43acd2b5913ec6829,
+      type: 3}
+    size: 50
+  - tag: MissilePlayer1
+    prefab: {fileID: 5833365021282407141, guid: 78b2d5e46491101409d0eaa13e24b745,
+      type: 3}
+    size: 3
+  - tag: MissileEnemy
+    prefab: {fileID: 5833365021282407141, guid: b6b6484094fe1b84b8a6458ec6d344fc,
+      type: 3}
+    size: 20
+  - tag: Explosion
+    prefab: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+    size: 10
+  - tag: MissilePlayer2
+    prefab: {fileID: 5833365021282407141, guid: 78b2d5e46491101409d0eaa13e24b745,
+      type: 3}
+    size: 3
+  - tag: MissilePlayer3
+    prefab: {fileID: 5833365021282407141, guid: 78b2d5e46491101409d0eaa13e24b745,
+      type: 3}
+    size: 3
+  - tag: MissilePlayer4
+    prefab: {fileID: 5833365021282407141, guid: 78b2d5e46491101409d0eaa13e24b745,
+      type: 3}
+    size: 3
+  - tag: EnergyShield
+    prefab: {fileID: 53655372885404695, guid: ddb5730d02a0010419d186dae258cbcb, type: 3}
+    size: 20
+  - tag: PlayersRocket
+    prefab: {fileID: 5833365021282407141, guid: c092b463f6141a34dba68d857686242e,
+      type: 3}
+    size: 10
+  - tag: Mine
+    prefab: {fileID: 733972513094109586, guid: f72e84942088f7c41beaca495a8e2643, type: 3}
+    size: 10
+  - tag: NucleMissile
+    prefab: {fileID: 5833365021282407141, guid: d05fbaf0beebdcb49acd6eb182367a4a,
+      type: 3}
+    size: 5
+  - tag: HeartBuff
+    prefab: {fileID: 1862400568530476457, guid: 771c296679f79ee4186f993bde898fc1,
+      type: 3}
+    size: 1
+  - tag: StarBuff
+    prefab: {fileID: 7788397146993212662, guid: ea5e87340b409cc40ad7dc1f3a32e9bc,
+      type: 3}
+    size: 1
+  - tag: HelmetBuff
+    prefab: {fileID: 8115571107627556125, guid: a2f81196aa316664280de6c7b11d8b63,
+      type: 3}
+    size: 1
+  - tag: GunBuff
+    prefab: {fileID: 8133239442802839971, guid: 14caf481dcd42534a922cc7554ffc034,
+      type: 3}
+    size: 1
+  - tag: TimerBuff
+    prefab: {fileID: 1149443261315278944, guid: e8ee3d1b624d2f44e9d7fedc7959ed4c,
+      type: 3}
+    size: 1
+  - tag: GranadeBuff
+    prefab: {fileID: 3684920342552157310, guid: 486513da5e1401f4fa47005b2d797899,
+      type: 3}
+    size: 1
+  - tag: DiggerBuff
+    prefab: {fileID: 7985074047860872333, guid: 3ecd684f957be1845ae78eeb5e787efe,
+      type: 3}
+    size: 1
+  - tag: AnchorBuff
+    prefab: {fileID: 5596921156788366763, guid: 91c033d314ad4d0418a546d2802c3d5e,
+      type: 3}
+    size: 1
+  - tag: SteelBase
+    prefab: {fileID: 7993427392114218878, guid: 0ebba9e8254ddcf43b4228dca5e616db,
+      type: 3}
+    size: 1
+  - tag: TurretBullet
+    prefab: {fileID: 5833365021282407141, guid: 78b2d5e46491101409d0eaa13e24b745,
+      type: 3}
+    size: 20
+  - tag: TakeBuff
+    prefab: {fileID: 7620972688054124562, guid: 8c7d9baae9c07de49b37a24091143bdd,
+      type: 3}
+    size: 3
+  - tag: BulletTail
+    prefab: {fileID: 3034360622622842803, guid: ed719067edf37434f9781a1a1578d8d5,
+      type: 3}
+    size: 20
+  - tag: AxeBuff
+    prefab: {fileID: 5596921156788366763, guid: b0138296c2a42044bacfb499cd8253b9,
+      type: 3}
+    size: 1
+  - tag: StarVFX
+    prefab: {fileID: 2613769080819340414, guid: a3926db3b0d35e740a0ae431882fd739,
+      type: 3}
+    size: 4
+  - tag: ShotVFX
+    prefab: {fileID: 7196386369509203876, guid: 8defeeec814263a499a29edb5f0abfbd,
+      type: 3}
+    size: 50
+  - tag: RocketVFX
+    prefab: {fileID: 6013865043641763590, guid: b9d4b6f64add2c44a84a37f2870d84df,
+      type: 3}
+    size: 10
+  - tag: BonusText
+    prefab: {fileID: 8547946524815660963, guid: a36d367e28e25854682f543eac09eb1a,
+      type: 3}
+    size: 3
+  - tag: Laser
+    prefab: {fileID: 3822762618589270448, guid: 68ebf1408a233a647bd688c5d19daa7b,
+      type: 3}
+    size: 10
+  - tag: HomileMissile
+    prefab: {fileID: 5833365021282407141, guid: 04a017cb8db11ec4d8c2c1ac1219a594,
+      type: 3}
+    size: 10
+  - tag: MassStrike
+    prefab: {fileID: 5833365021282407141, guid: 4de148a8a691f0b43921e67eff06450e,
+      type: 3}
+    size: 15
+  - tag: BigLaser
+    prefab: {fileID: 3822762618589270448, guid: ebd2d8dd72b56f14986c0f0109f4fb82,
+      type: 3}
+    size: 5
+  - tag: BigLaserCharge
+    prefab: {fileID: 5297924421013544151, guid: 64a73afe27a214e4b91a8373c009f3b3,
+      type: 3}
+    size: 5
+  - tag: RiffleBullet
+    prefab: {fileID: 8672884050284795784, guid: 2e16a8fece7a31a44866fc0e973db79c,
+      type: 3}
+    size: 20
+  - tag: SpeedBuff
+    prefab: {fileID: 1149443261315278944, guid: aa2160f963be07647acbe26d43478df1,
+      type: 3}
+    size: 1
+  - tag: ExtraLifeBuff
+    prefab: {fileID: 1149443261315278944, guid: 3dec91444b4cda14c9fce3efca1425d7,
+      type: 3}
+    size: 1
+  - tag: ConnectingBeam
+    prefab: {fileID: 3822762618589270448, guid: ac7b5bd96b0fc524b8d4b7b56cef0017,
+      type: 3}
+    size: 2
+  - tag: ExtraLifeVFX
+    prefab: {fileID: 3281974751011172868, guid: 52ea4d2de68efa047863a413c20cc4ea,
+      type: 3}
+    size: 2

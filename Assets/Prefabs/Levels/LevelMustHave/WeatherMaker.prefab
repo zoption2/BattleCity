@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &918802375346178393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8345611297123291440}
+  - component: {fileID: 8333766085921596085}
+  m_Layer: 0
+  m_Name: WeatherMaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8345611297123291440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918802375346178393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.7369123, y: 69.95346, z: 15.844498}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8333766085921596085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918802375346178393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e74ee83adfeef745a76ed22aa757013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ground: {fileID: 2100000, guid: 439c9d068bf2bbd4cb4b2e866e4956d5, type: 2}
+  snow: {fileID: 2800000, guid: 5a533e52925417a43925d6f6057eb848, type: 3}
+  asphalt: {fileID: 2800000, guid: 3f70a93cc55b3eb4aafb3a89251bb168, type: 3}
+  sand: {fileID: 2800000, guid: 3b83c645916fdff4bbf5bc9c1529a43c, type: 3}
+  walls: {fileID: 2100000, guid: a7740b9c9bfdddb438260223ab8435fc, type: 2}
+  steel: {fileID: 2100000, guid: 6b838b771ee8a52488c72d29416d7856, type: 2}
+  snowfield: {fileID: 9111835523028834651, guid: 33595d1b7c12d184a91e49489c675963,
+    type: 3}
+  volume_snow: {fileID: 3244840844310158621, guid: 5b0abac97e4e94e4cac1256c32bf78d7,
+    type: 3}
+  volume_sand: {fileID: 739384220205941166, guid: 1ee98ebc7981e1645a7169fab5603c8d,
+    type: 3}
+  volume_city: {fileID: 3302304327471706985, guid: 742118fbdfa09294990f96042c093988,
+    type: 3}
+  weather: 0

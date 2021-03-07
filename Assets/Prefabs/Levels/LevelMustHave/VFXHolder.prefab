@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1729299484147443111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6691583692651344443}
+  - component: {fileID: 6014526139589772988}
+  m_Layer: 0
+  m_Name: VFXHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6691583692651344443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729299484147443111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6014526139589772988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729299484147443111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f61e28ba8ab5cd4eabfc84f68441313, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawners:
+  - tag: ExtraCircleDisable
+    prefab: {fileID: 6521852133522663435, guid: bd8d368481e672944a53791cfe38b599,
+      type: 3}
+    size: 4
+  - tag: ExtraCircleEnable
+    prefab: {fileID: 3281974751011172868, guid: 52ea4d2de68efa047863a413c20cc4ea,
+      type: 3}
+    size: 4
+  - tag: LivesUp
+    prefab: {fileID: 7661713529380665155, guid: ebaaf60065b4daf49a57f1722b024090,
+      type: 3}
+    size: 4
+  - tag: Speed_1
+    prefab: {fileID: 5578775757075757300, guid: e717cdddec0afcb47be97d9bcd2a2153,
+      type: 3}
+    size: 1
+  - tag: Speed_2
+    prefab: {fileID: 3554979539271246063, guid: a933724a7c122384882eef0b60749d4f,
+      type: 3}
+    size: 1
+  - tag: Speed_3
+    prefab: {fileID: 6508979205896316357, guid: 7f1c0f6b39e84f44590edee9de35559e,
+      type: 3}
+    size: 1
+  - tag: RedCircle
+    prefab: {fileID: 6833759474347392549, guid: 11a42e463ebc4e644b35942b1a0222ee,
+      type: 3}
+    size: 4
+  - tag: BlueCircle
+    prefab: {fileID: 5987796934067494136, guid: 637e9433b067fc34f91ae04e7f88f6a4,
+      type: 3}
+    size: 4
+  - tag: ButtleShine
+    prefab: {fileID: 2397515756490269217, guid: 3b9749a27c90bb44fa37b86322676edf,
+      type: 3}
+    size: 10
+  - tag: MakeLove
+    prefab: {fileID: 6524356311702159646, guid: b68589ab3ec969345ad327e2714700c1,
+      type: 3}
+    size: 4
+  - tag: Hit
+    prefab: {fileID: 517339070107424601, guid: 8c1a51c630f1009479fa4850f8a3f9a1, type: 3}
+    size: 20
+  - tag: StarUP
+    prefab: {fileID: 2613769080819340414, guid: a3926db3b0d35e740a0ae431882fd739,
+      type: 3}
+    size: 10
+  - tag: HitBlast
+    prefab: {fileID: 517339070107424601, guid: 5bae81af49ca80b428f63a4ea1a34403, type: 3}
+    size: 10
+  - tag: Explosion_1
+    prefab: {fileID: 8362291237424991941, guid: 442c5a7586800504fa1fd8987e948421,
+      type: 3}
+    size: 10

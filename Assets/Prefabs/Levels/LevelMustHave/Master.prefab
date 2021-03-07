@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &56923573343080159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 56923573343080157}
+  - component: {fileID: 2945926738261778078}
+  - component: {fileID: 2568866919771117137}
+  - component: {fileID: 7011391689484147313}
+  m_Layer: 0
+  m_Name: Master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56923573343080157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56923573343080159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2945926738261778078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56923573343080159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca47356b7eef8f1469120e1c8600a996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_1: {fileID: 6330752411599865303, guid: 726c721318790c043918c181ceca7302,
+    type: 3}
+  player_2: {fileID: 6330752411599865303, guid: 5350bee9d8a95484e9ab4e54f764f685,
+    type: 3}
+  player_3: {fileID: 6330752411599865303, guid: 61161619d073b4746acfaaf84a40d682,
+    type: 3}
+  player_4: {fileID: 6330752411599865303, guid: 10ceae5175e55544d8bcee344de8cf54,
+    type: 3}
+  smallEnemy: {fileID: 3550700939788591562, guid: e491e10691dc9e641b58322537650431,
+    type: 3}
+  fastEnemy: {fileID: 3550700939788591562, guid: ca0f21b32e5a4e646aae9492fd1b3fc3,
+    type: 3}
+  bigEnemy: {fileID: 3550700939788591562, guid: 8c6a49dd26a1dd047a9e24cf857105ee,
+    type: 3}
+  armoredEnemy: {fileID: 3550700939788591562, guid: e0ad6597c95119e448c9e0fe69c850fc,
+    type: 3}
+  bossEnemy: {fileID: 0}
+  energyShield: {fileID: 53655372885404695, guid: ddb5730d02a0010419d186dae258cbcb,
+    type: 3}
+  turret: {fileID: 7377745199282193561, guid: 0944a9408578714419ee8400b27ccfc5, type: 3}
+  redWallBlock: {fileID: 6670738086649803521, guid: e387bc42fc27b4544abef32cbbf2db8c,
+    type: 3}
+  spikes: {fileID: 6906080916522791925, guid: bbd2c300bcd0ea04a8de7f6efd2913f0, type: 3}
+  riffleGun: {fileID: 2510267037378941078, guid: 341a3f0bee0c0bd42b1773d0dafe0fe7,
+    type: 3}
+--- !u!114 &2568866919771117137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56923573343080159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8c2915b0015dc448cdef516b8fd18f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7011391689484147313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56923573343080159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a35ddb3a549e7a43bc6e5c4e26bb907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Points: {fileID: 2883560971450474951, guid: 4c0d9f32295e78a43ae8519d5b5f76a6, type: 3}
